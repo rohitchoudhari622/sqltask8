@@ -8,7 +8,7 @@ select * from sales
 
 select * from sales where order_id ~ '2016';
 
---2)GET ALL THE ROWS IS SCOND CLASS IN ship_mode FROM SALES WHERE AS MAKE IT CASE INSENSITIVE.
+--2)GET ALL THE ROWS  SECOND CLASS IN ship_mode FROM SALES WHERE AS MAKE IT CASE INSENSITIVE.
 
 select * from sales where ship_mode ~* 'second class';
 
